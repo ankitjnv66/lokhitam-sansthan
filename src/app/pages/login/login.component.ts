@@ -15,4 +15,8 @@ export class LoginComponent implements OnInit {
   }
 
   constructor() {}
+
+  loginUser() { 
+    console.log('login form submitted!!');
+  }
 }
